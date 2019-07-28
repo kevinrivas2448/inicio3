@@ -1,0 +1,81 @@
+/*texto de colores*/
+.contact1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color: red;/* primer caracter */
+	font-size:20px;
+	text-align: center;
+}
+
+.contact1 h1 {
+	font-size:72px;
+	text-transform:uppercase;
+	margin-bottom:0px;
+}
+.char2 {
+	color: black;
+} 
+	/* 2do caracter */
+.char3 {
+	color: yellow;
+} 
+	/* 3er caracter */
+.char4 {
+	color: coral;
+} 
+	/* 4to caracter */
+.char5 {
+	color: indigo;
+} 
+	/* 5to caracter */
+.char6 {
+	color: violet;
+} 
+	/* 6to caracter */
+.char7 {
+	color: orange;
+} 
+	/* 7mo caracter */
+.char8 {
+	color: skyblue;
+} 
+	/* 8vo caracter */
+.char9 {
+	color: chocolate;
+} 
+	/* 9no caracter */
+.char10 {
+	color: salmon;
+} 
+	/* 10mo caracter */
+.char11 {
+	color: gold;
+} 
+	/* 11vo caracter */
+}
+
+/*fin texto de colores*/
+
+.formcomments{
+	text-align: center;
+	border-radius: 2px;
+}
+.comment1{
+	text-align: center;
+}
+.btn-form {
+	display: inline-block; 
+	border:0; 
+	background: #000; 
+	height: 46px; 
+	line-height: 46px; 
+	padding: 0 20px; 
+	border-radius: 6px; 
+	color:#fff; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	letter-spacing: 1px
+}
+.btn-form:hover{
+	background: #444
+}

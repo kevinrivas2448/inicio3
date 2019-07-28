@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- uso de caracteres especiales -->
+		<meta charset="utf-8">
+		<!-- título -->
+		<title>Real S-teek</title>
+		<!-- Estilos Css -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Libreria JQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<!-- Efectos Lettering de JQuery -->
+		<script src="js/jquery.lettering.js"></script>
+		<!-- Libreria Jquery -->
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<!-- Escribe tu codigo aquí -->
+		<div id="contact" class="contact1">
+			<h1>Contáctanos</h1>
+		</div>
+		<center>
+			<!-- Formulario -->
+			<form action="envia.php" method="post" class="formcomments">
+				<label for="asunto">Asunto:
+					<p>
+						<textarea name="Asunto" rows="1" cols="60" maxlength="100" class="comment1"></textarea>
+					</p>
+				</label>
+				<label for="nombre">Nombre y Apellido:
+					<p>
+						<textarea name="Nombre" rows="1" cols="60" maxlength="30" required="required" class="comment1" placeholder="Nombre y apellido"></textarea>
+					</p>
+				</label>
+				<label for="e-mail">E-mail:
+					<p>
+						<textarea name="E-mail" rows="1" cols="60" maxlength="40" required="required" class="comment1" placeholder="name@example.com"></textarea>
+					</p>
+				</label>
+				<label for="comment">Comentario:
+					<p>
+						<textarea name="comentario" rows="15" cols="60" maxlength="600" required="required" class="comment1" placeholder="Escribe tu comentario aquí"></textarea>
+					</p>
+				</label>
+				<input type="submit" value="Enviar" class="btn-form">
+			</form>
+			<!-- Fin del formulario -->
+		</center>
+		<!-- Pie de la pagina -->
+		<footer>
+			colocar derechos de copiright aquí
+		</footer>
+	</body>
+</html>
